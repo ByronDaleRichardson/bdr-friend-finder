@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://centercity2020.files.wordpress.com/2009/10/uncccc3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: #054728;
+    color: #c1af6c;
+    opacity: .85;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    color: #054728;
+    background-color: #c1af6c;
+    border-color: #233a30;
+}
+
+.btn-primary:hover {
+    color: #c1af6c;
+    background-color: #233a30;
+    border-color: #c1af6c;
+}
+
+.panel-heading {
+    color: #054728;
+}
+
+.panel-body {
+    color: #054728;
+}
+.panel-title {
+    color: #054728;
+}
+
+.bold a:link {
+    color: #054728;
+}
+
+.bold a:visited {
+    color: #054728;
+}
+
+.bold a:hover {
+    color: #c1af6c;
+}
+
+.modal-content {
+    color: #054728;
+}
+
+.chosen-select:active, .chosen-select:hover {
+  color: #c1af6c;
+  outline: none;
+}
+
+#submit {
+    color: #054728;
+    background-color: #c1af6c;
+    border-color: #233a30;
+}
+
+#submit:hover {
+    color: #c1af6c;
+    background-color: #054728;
+    border-color: #c1af6c;
+}
+
+#jumbo_h2 {
+    color: #c1af6c;
+}

@@ -9,6 +9,10 @@ var friends = require('./app/data/friends.js');
 var app = express();
 var PORT = 3313; 
 
+// this makes the style.css work
+app.use(express.static('app/public'));
+app.use(express.static('app/data'));
+
 // Set up the Express app
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
