@@ -6,6 +6,10 @@ body{
     background-attachment: fixed;
 }
 
+.highlight:hover {
+    background-color: #054728 !important;
+}
+
 .jumbotron {
     background-color: #054728;
     color: #c1af6c;
@@ -54,7 +58,6 @@ body{
 
 .chosen-select:active, .chosen-select:hover {
   color: #c1af6c;
-  outline: none;
 }
 
 #submit {

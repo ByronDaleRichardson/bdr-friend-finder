@@ -15,7 +15,7 @@
     <div class="container">
 
         <div class="jumbotron">
-            <center><img src="https://s26.postimg.org/5oo1y7max/UNC_Charlotte_Logo.png" alt="UNCC"></center>
+            <center><img src="../data/UNC_Charlotte_Logo.png" alt="UNCC"></center>
             <h1 class="text-center"> UNC Charlotte<br><i class="fa fa-female"></i> Friend Finder <i class="fa fa-male"></i></h1>
             <hr>
             <h2 id="jumbo_h2" class="text-center">Alright, here we go - Fill out the survey</h2>
@@ -51,17 +51,15 @@
 
                         <h4>Question 1</h4><h3>You rarely do something out of sheer curiosity.</h3>
                         <select data-placeholder="" class="chosen-select" id="q1">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5 (Agree Strongly)</option>
+                            <option value="2" class="highlight">2</option>
+                            <option value="3" class="highlight">3</option>
+                            <option value="4" class="highlight">4</option>
+                            <option value="5" class="highlight">5 (Agree Strongly)</option>
                         </select>
                         <br><br>
                         <h4>Question 2</h4><h3>You like friends who are quirky.</h3>
                         <select data-placeholder="" class="chosen-select" id="q2">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -71,7 +69,6 @@
                         <br><br>
                         <h4>Question 3</h4><h3>People can rarely make you get upset.</h3>
                         <select data-placeholder="" class="chosen-select" id="q3">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -81,7 +78,6 @@
                         <br><br>
                         <h4>Question 4</h4><h3>Strong moral views are important qualities for a friend.</h3>
                         <select data-placeholder="" class="chosen-select" id="q4">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -91,7 +87,6 @@
                         <br><br>
                         <h4>Question 5</h4><h3>You often get carried away by your fantasies and ideas.</h3>
                         <select data-placeholder="" class="chosen-select" id="q5">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -101,7 +96,6 @@
                         <br><br>
                         <h4>Question 6</h4><h3>You want a friend who would rather read a book than go on an adventure.  </h3>
                         <select data-placeholder="" class="chosen-select" id="q6">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -111,7 +105,6 @@
                         <br><br>
                         <h4>Question 7</h4><h3>After spending time with a group of people, you feel energized.</h3>
                         <select data-placeholder="" class="chosen-select" id="q7">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -121,7 +114,6 @@
                         <br><br>
                         <h4>Question 8</h4><h3>You need a friend who loves being outdoors.</h3>
                         <select data-placeholder="" class="chosen-select" id="q8">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -131,7 +123,6 @@
                         <br><br>
                         <h4>Question 9</h4><h3>You would much rather go to a restaurant and a movie than get together with friends and play games.</h3>
                         <select data-placeholder="" class="chosen-select" id="q9">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -141,7 +132,6 @@
                         <br><br>
                         <h4>Question 10</h4><h3>It is rarely difficult for you to relate to how others are feeling.</h3>
                         <select data-placeholder="" class="chosen-select" id="q10">
-                            <option value=""></option>
                             <option selected="selected" value="1">1 (Disagree Strongly)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -199,6 +189,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
+
 // Grab the URL of the website
 var currentURL = window.location.origin;
 // Capture the form inputs

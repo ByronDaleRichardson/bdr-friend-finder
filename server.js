@@ -11,7 +11,7 @@ var PORT = 3313;
 
 // this makes the style.css work
 app.use(express.static('app/public'));
-app.use(express.static('app/data'));
+app.use(express.static('app'));
 
 // Set up the Express app
 app.use(bodyParser.json());
